@@ -4,8 +4,8 @@ import pandas as pd
 
 # 🔐 Credenciais
 user = "thiagoramos20042"
-password = "Thi@go58342131"
-account = "oixoldc-ns82603"
+password = "sua_senha"
+account = "sua_conta"
 warehouse = "COMPUTE_WH"
 database = "DADOS_VENDAS"
 schema = "VENDAS"
