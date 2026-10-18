@@ -2,9 +2,9 @@
 
 Script de conexão com Snowflake que lista tabelas de um schema e organiza o retorno em um DataFrame.
 
-**Engenharia de dados** · Script de laboratório
+**Dados e integrações de apoio** · Script de laboratório
 
-[← Portfólio de Thiago Oliveira](https://github.com/thiagoramos20042/thiagoramos20042) · [Catálogo de projetos](https://github.com/thiagoramos20042/thiagoramos20042/blob/main/PROJETOS.md)
+[← Data Science, IA e Automações · Thiago Oliveira](https://github.com/thiagoramos20042/thiagoramos20042) · [Catálogo de projetos](https://github.com/thiagoramos20042/thiagoramos20042/blob/main/PROJETOS.md)
 
 ## Objetivo
 
