@@ -1,31 +1,45 @@
-📊 Streamlit + Snowflake Connector
+# Snowflake | Conexão e exploração de tabelas
 
-Uma aplicação web simples criada com Streamlit que permite conectar-se a um banco de dados Snowflake e visualizar as tabelas disponíveis dentro de um schema especificado.
+Script de conexão com Snowflake que lista tabelas de um schema e organiza o retorno em um DataFrame.
 
-🚀 Funcionalidades
+**Engenharia de dados** · Script de laboratório
 
-Interface interativa para inserção de credenciais do Snowflake.
+[← Portfólio de Thiago Oliveira](https://github.com/thiagoramos20042/thiagoramos20042) · [Catálogo de projetos](https://github.com/thiagoramos20042/thiagoramos20042/blob/main/PROJETOS.md)
 
-Conexão segura ao Snowflake com feedback visual (sucesso ou erro).
+## Objetivo
 
-Exibição das tabelas disponíveis no schema selecionado.
+Praticar a configuração de uma conexão e a leitura de metadados de um ambiente Snowflake.
 
-🛠️ Tecnologias Utilizadas
+## O que você encontra
 
-Streamlit
+- Conexão parametrizada por usuário, conta, warehouse, database e schema.
+- Consulta SHOW TABLES para listar tabelas.
+- Exibição do resultado em um DataFrame no terminal.
 
-Snowflake Connector para Python
+## Tecnologias
 
-Pandas
+Python · Snowflake Connector · pandas
 
-🖥️ Pré-requisitos
+## Arquivos principais
 
-Certifique-se de que você tem instalado:
+| Arquivo | Conteúdo |
+| --- | --- |
+| [arquivos/snowflake2.py](arquivos/snowflake2.py) | Script de conexão e consulta de tabelas. |
+| [requirements.txt](requirements.txt) | Dependências do ambiente original. |
 
-Python (recomendado 3.8+)
+## Como explorar
 
-Streamlit
+Configure os parâmetros de conexão em arquivos/snowflake2.py com uma conta própria. Na raiz:
 
-Snowflake Connector
+```bash
+python -m pip install snowflake-connector-python pandas
+python arquivos/snowflake2.py
+```
 
-Pandas
+## Contexto do projeto
+
+O código versionado é executado no terminal. A descrição anterior mencionava uma interface Streamlit que não consta no script atual.
+
+---
+
+Integra o [portfólio de Thiago Oliveira](https://github.com/thiagoramos20042).
